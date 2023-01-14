@@ -79,7 +79,7 @@ export default function Home({ posts }) {
               <li key={post.id} className={styles.post}>
                 <h3 className={styles.postTitle}>
                   <Link href={`/${post.id}`}>
-                    <Text text={post.properties.Name} />
+                    <Text text={post.properties.Name.title} />
                   </Link>
                 </h3>
 
