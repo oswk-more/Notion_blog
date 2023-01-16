@@ -156,6 +156,7 @@ const renderBlock = (block) => {
   }
 };
 
+// 各ページの内容
 export default function Post({ page, blocks }) {
   if (!page || !blocks) {
     return <div />;
