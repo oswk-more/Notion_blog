@@ -48,7 +48,7 @@ export default function Home({ posts }) {
             </svg>
           </div>
           <h1>more blog</h1>
-          <h2>Next.js blog powered by Notion API</h2>
+          <h2>Next.js blog powered by Notion API.</h2>
           <h3>
             些細なことを忘れないように記録しています。
           </h3>
